@@ -2,11 +2,15 @@ import React from "react";
 
 export default () => (
   <div>
-    <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
-    <p>
-      What do I like to do? Lots of course but definitely enjoy building
-      websites.
-    </p>
+    <h1><b>GRUPO NÚMERO X</b></h1>
+    <h3>
+      Integrantes:
+    </h3>
+    <list>
+      <p>- Raso Angelo</p>
+      <p>- Billordo Zini Fernanda</p>
+      <p>- Botta Teo</p>
+    </list>
   </div>
 );
 
