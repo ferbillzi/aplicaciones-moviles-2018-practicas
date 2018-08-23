@@ -23,6 +23,9 @@ export default ({ children }) =>
       </ul>
     </header>
     {children()}
+    <footer>
+      Página diseñada para la cátedra de Aplicaciones Móviles - Año 2018
+    </footer>
   </div>
 
 
