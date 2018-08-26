@@ -1,13 +1,13 @@
 import React from "react";
 // Le dice a Webpack que estos archvios JS usan estas imagenes
-import macbook from "../assets/img/macbook.png"; 
-import macbook_air from "../assets/img/macbook_air.png";
-import macbook_pro from "../assets/img/macbook_pro.png";
-import imac from "../assets/img/imac.png"; 
-import imac_pro from "../assets/img/imac_pro.png";
-import ipad from "../assets/img/ipad.png";
-import ipad_mini from "../assets/img/ipad_mini.png";
-import ipad_pro from "../assets/img/ipad_pro.png";
+import macbook from "../assets/img/macbook.jpg"; 
+import macbook_air from "../assets/img/macbook_air.jpg";
+import macbook_pro from "../assets/img/macbook_pro.jpg";
+import imac from "../assets/img/imac.jpg"; 
+import imac_pro from "../assets/img/imac_pro.jpg";
+import ipad from "../assets/img/ipad.jpg";
+import ipad_mini from "../assets/img/ipad_mini.jpg";
+import ipad_pro from "../assets/img/ipad_pro.jpg";
 
 export default () => (
     <div>

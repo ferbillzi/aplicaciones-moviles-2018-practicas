@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "gatsby-link";
-import apple from "../assets/img/apple.png";
+import apple from "../assets/img/apple.jpg";
 
 const ListLink = props =>
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
