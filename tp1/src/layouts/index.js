@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "gatsby-link";
+import apple from "../assets/img/apple.png";
 
 const ListLink = props =>
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -12,15 +13,16 @@ const ListLink = props =>
 
 export default ({ children }) =>
   <div>
-    <div css={{ margin: `0 auto`, maxWidth: 650, padding: `1.25rem 1rem` }}>
+    <div css={{ margin: `0 auto`, maxWidth: 900, padding: `1.25rem 1rem` }}>
         <header style={{ marginBottom: `1.5rem`}}>
           <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-            <h3 style={{ display: `inline`}}>PARKER</h3>
+              <img css={{ display: `inline`, width: `25px`, height: `30px`}} src={apple} alt="apple"/>
           </Link>
-          <ul style={{ listStyle: `none`, float: `right`}}>
-            <ListLink to="/">Grupo</ListLink>
-            <ListLink to="/plumas/">Plumas</ListLink>
-            <ListLink to="/lapiceras/">Lapiceras</ListLink>
+          <ul css={{ listStyle: `none`, float: `right`}}>
+            <ListLink to="/#grupo">Grupo</ListLink>
+            <ListLink to="/#macbooks">Macbooks</ListLink>
+            <ListLink to="/#imacs">Imacs</ListLink>
+            <ListLink to="/#ipads">Ipads</ListLink>
           </ul>
         </header>
         {children()}
